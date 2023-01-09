@@ -10,7 +10,7 @@ import App from './App'
 
 import VueParticles from './vue-particles'
 import VuePrism from 'vue-prism'
-Vue.use(VueParticles, VuePrism)
+createApp(App).use(Particles, Prism)
 
 Vue.config.productionTip = false
 
