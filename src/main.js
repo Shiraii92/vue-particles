@@ -8,9 +8,8 @@ import './assets/tables.scss'
 import Vue from 'vue'
 import App from './App'
 
-import VueParticles from './vue-particles'
-import VuePrism from 'vue-prism'
-createApp(App).use(Particles, Prism)
+import Particles from 'vue3-particles'
+createApp(App).use(Particles)
 
 Vue.config.productionTip = false
 

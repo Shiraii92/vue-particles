@@ -1,10 +1,10 @@
 /* eslint-disable */
-import particles from './vue-particles.vue'
+import particles from 'vue3-particles'
 
 const VueParticles = {
 
     install (Vue, options) {
-        Vue.component('vue-particles', particles)
+        Vue.component('vue3-particles', particles)
     }
 
 }
