@@ -100,10 +100,8 @@
 </template>
 
 <script>
-import aosMixin from '@/mixins/aos'
 export default {
   name: 'app',
-  mixins: [aosMixin],
   data() {
     return {
       selected: 0,
